@@ -1,0 +1,9 @@
+<div data-hook="admin_product_form_featured">
+	<%= f.field_container :featured, class: ['checkbox'] do %>
+		<%= f.label :featured do %>
+			<%= f.check_box :featured %>
+			<%= Spree.t(:'featured.checkbox_label') %>
+		<% end %>
+		<%= f.error_message_on :featured %>
+	<% end %>
+</div>

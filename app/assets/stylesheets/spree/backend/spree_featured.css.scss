@@ -1,0 +1,10 @@
+@import "bootstrap-switch";
+
+td .switch_error {
+	float: right;
+	display: none;
+
+	span {
+		margin: 0 !important;
+	}
+}

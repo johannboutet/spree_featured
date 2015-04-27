@@ -1,0 +1,6 @@
+en:
+    spree:
+        featured:
+            col_title: Featured
+            checkbox_label: Include in the "Featured Products" block
+            ajax_error: An error occured while saving the changes. The featured state of the product has not been changed.
