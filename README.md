@@ -19,7 +19,7 @@ bundle
 bundle exec rails g spree_featured:install
 ```
 
-This will add a `featured` column to all products that defaults to `false`.
+This will add a `featured` column to all products that defaults t `false`.
 
 ## Admin Backend
 
@@ -39,6 +39,22 @@ To avoid being redirected every time you change a switch, make sure the admin us
 ### Product Edit Page
 
 A checkbox is also added to the product edit page, under the Description text area.
+
+## Frontend Usage
+
+This extension adds a `only_featured` search scope to the Product model so that you can retrieve featured products easily. 
+
+```ruby
+# home_controller_decorator.rb
+
+module Spree
+	HomeController.class_eval do
+		def index
+			@products = Product.only_featured
+		end
+	end
+end
+```
 
 ## Testing
 
