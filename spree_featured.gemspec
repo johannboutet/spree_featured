@@ -3,13 +3,13 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_featured'
   s.version     = '3.0.0'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'Adds a featured option to Spree Products.'
+  s.description = 'This is a Spree extension that adds the ability to mark products as featured, for example to display on the homepage.'
   s.required_ruby_version = '>= 2.0.0'
 
-  # s.author    = 'You'
-  # s.email     = 'you@example.com'
-  # s.homepage  = 'http://www.spreecommerce.com'
+  s.author    = 'Johann Boutet'
+  s.email     = 'joh@nnboutet.com'
+  s.homepage  = 'http://www.johannboutet.com'
 
   #s.files       = `git ls-files`.split("\n")
   #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
