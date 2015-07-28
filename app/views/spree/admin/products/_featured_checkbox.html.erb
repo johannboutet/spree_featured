@@ -2,7 +2,7 @@
 	<%= f.field_container :featured, class: ['checkbox'] do %>
 		<%= f.label :featured do %>
 			<%= f.check_box :featured %>
-			<%= Spree.t(:'featured.checkbox_label') %>
+			<%= Spree.t(:featured_checkbox_label) %>
 		<% end %>
 		<%= f.error_message_on :featured %>
 	<% end %>

@@ -1,6 +1,5 @@
 fr:
-    spree:
-        featured:
-            col_title: Produit vedette
-            checkbox_label: Inclure dans la section "Produits vedettes"
-            ajax_error: Une erreur est survenue lors de l'enregistrement, aucun changement n'a été fait.
+  spree:
+    featured_col_title: Produit vedette
+    featured_checkbox_label: Inclure dans la section "Produits vedettes"
+    featured_ajax_error: Une erreur est survenue lors de l'enregistrement, aucun changement n'a été fait.
